@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+#wrap {
+	width: 1180px;
+	margin: 60px auto 180px;
+}
+
+#wrap h1 {
+	color: #111;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 52px;
+}
+
+#wrap table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#wrap table td, th {
+	border: #d3d3d3 solid 1px;
+	padding: 5px 10px;
+	height: 32px;
+}
+
+#wrap table .table_top {
+	border: none;
+	text-align: right;
+	font-size: 14px;
+}
+
+#wrap table .table_btn {
+	border: none;
+	text-align: center;
+	height: 55px;
+}
+
+#wrap th {
+	background: #0D5611;
+	color: #fff;
+}
+
+#wrap img {
+	width: 220px;
+	height: 300px;
+}
+
+#wrap a {
+	text-decoration: none;
+	color: black;
+}
+
+#wrap a:hover {
+	text-decoration: underline;
+	color: #0D5611;
+}
+
+#wrap input {
+	height: 33px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+#wrap input[type=text], textarea {
+	width: 100%;
+}
+
+#wrap input.price {
+	width: 200px;
+}
+
+#wrap span {
+	line-height: 33px;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+#wrap input[type=submit], input[type=button] {
+	background: #0D5611;
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	padding: 10px;
+	height: 45px !important;
+	border: 1px solid #0D5611;
+	border-radius: 4px;
+	width: 150px !important;
+	display: inline-block;
+}
+
+#wrap input[type=button] {
+	background: #fff;
+	color: #0D5611;
+}

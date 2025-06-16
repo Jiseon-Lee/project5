@@ -4,9 +4,10 @@ import java.sql.Timestamp;
 
 public class BoardVO {
 	private int num;
+	private String userid;
 	private String username;
+	private String pwd;
 	private String email;
-	private String pass;
 	private String title;
 	private String content;
 	private int readcount;
@@ -20,6 +21,14 @@ public class BoardVO {
 		this.num = num;
 	}
 
+	public String getUserid() {
+		return userid;
+	}
+
+	public void setUserid(String userid) {
+		this.userid = userid;
+	}
+
 	public String getUsername() {
 		return username;
 	}
@@ -28,20 +37,20 @@ public class BoardVO {
 		this.username = username;
 	}
 
+	public String getPwd() {
+		return pwd;
+	}
+
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+
 	public String getEmail() {
 		return email;
 	}
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
-
-	public String getPass() {
-		return pass;
-	}
-
-	public void setPass(String pass) {
-		this.pass = pass;
 	}
 
 	public String getTitle() {
@@ -78,7 +87,9 @@ public class BoardVO {
 
 	@Override
 	public String toString() {
-		return "BoardVO [num=" + num + ", username=" + username + ", email=" + email + ", pass=" + pass + ", title="
-				+ title + ", content=" + content + ", readcount=" + readcount + ", writedate=" + writedate + "]";
+		return "BoardVO [num=" + num + ", userid=" + userid + ", username=" + username + ", pwd=" + pwd + ", email="
+				+ email + ", title=" + title + ", content=" + content + ", readcount=" + readcount + ", writedate="
+				+ writedate + "]";
 	}
+
 }

@@ -7,8 +7,8 @@
 <meta charset="UTF-8">
 <title>집반찬연구소</title>
 <link href="css/reset.css" rel="stylesheet">
-<link href="css/common.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
 <script src="./js/category.js"></script>

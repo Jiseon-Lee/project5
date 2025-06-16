@@ -15,7 +15,7 @@ public class DBManager {
 		try {
 			Context initContext = new InitialContext();
 			Context envContext = (Context) initContext.lookup("java:/comp/env");
-			DataSource ds = (DataSource) envContext.lookup("jdbc/estoreDB");
+			DataSource ds = (DataSource) envContext.lookup("jdbc/banchanDB");
 			conn = ds.getConnection();
 			System.out.println("DBCP 연동 성공");
 			System.out.println("mysql 연결 성공 : " + conn);

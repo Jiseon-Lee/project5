@@ -1,18 +1,18 @@
 package com.banchan.dto;
 
 public class ProductVO {
-	private Integer code;
+	private int code;
 	private String productName;
-	private Integer price;
+	private int price;
 	private String description;
 	private String pictureUrl;
 	private String issell;
 
-	public Integer getCode() {
+	public int getCode() {
 		return code;
 	}
 
-	public void setCode(Integer code) {
+	public void setCode(int code) {
 		this.code = code;
 	}
 
@@ -24,11 +24,11 @@ public class ProductVO {
 		this.productName = productName;
 	}
 
-	public Integer getPrice() {
+	public int getPrice() {
 		return price;
 	}
 
-	public void setPrice(Integer price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
 
