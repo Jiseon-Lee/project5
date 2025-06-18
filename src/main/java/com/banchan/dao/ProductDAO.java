@@ -106,7 +106,7 @@ public class ProductDAO {
 
 	// 상품 수정
 	public int updateProduct(ProductVO pVo) {
-		String sql = "update product set productname=?, price=?, pictureurl=?, description=?, issell=? where code =?";
+		String sql = "update product set productname=?, price=?, pictureurl=?, description=?, issell=? where code=?";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		int result = 0;

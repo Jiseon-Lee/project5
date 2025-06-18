@@ -55,10 +55,11 @@ public class BoardDAO {
 	}
 	
 	// 글 작성
-	public void insertBoard(BoardVO bVo) {
+	public int insertBoard(BoardVO bVo) {
 		String sql = "insert into board(userid, title, content) values(?,?,?)";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
+		int result = 0;
 		
 		try {
 			conn = DBManager.getConnection();
@@ -66,13 +67,14 @@ public class BoardDAO {
 			pstmt.setString(1, bVo.getUserid());
 			pstmt.setString(2, bVo.getTitle());
 			pstmt.setString(3, bVo.getContent());
-			pstmt.executeUpdate();
+			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 			throw new RuntimeException("글 작성 중에 오류가 발생했습니다.", e);
 		} finally {
 			DBManager.close(conn, pstmt);
 		}
+		return result;
 	}
 	
 	// 글 열람 수 증가
@@ -128,10 +130,11 @@ public class BoardDAO {
 	}
 	
 	// 게시물 수정
-	public void updateBoard(BoardVO bVo) {
-		String sql = "update board set title=?, content=? where num=? and userid=?";
+	public int updateBoard(BoardVO bVo) {
+		String sql = "update board set title=?, content=? where num=?";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
+		int result = 0;
 		
 		try {
 			conn = DBManager.getConnection();
@@ -139,61 +142,31 @@ public class BoardDAO {
 			pstmt.setString(1, bVo.getTitle());
 			pstmt.setString(2, bVo.getContent());
 			pstmt.setInt(3, bVo.getNum());
-			pstmt.setString(4, bVo.getUserid());
-			pstmt.executeUpdate();
+			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
 			DBManager.close(conn, pstmt);
 		}
+		return result;
 	}
 	
-	// 게시글 비밀번호 확인
-	public BoardVO checkPassWord(String pass, String num) {
-		String sql = "select board.*, username, pwd, email from board join member on board.userid = member.userid"
-				+ " where num=? pwd=?";
-		Connection conn = null;
-		PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		BoardVO bVo = null;
-		
-		try {
-			conn = DBManager.getConnection();
-			pstmt = conn.prepareStatement(sql);
-			pstmt.setString(1, pass);
-			pstmt.setString(2, num);
-			rs = pstmt.executeQuery();
-			if (rs.next()) {
-				bVo = new BoardVO();
-				bVo.setNum(rs.getInt("num"));
-				bVo.setUserid(rs.getString("userid"));
-				bVo.setTitle(rs.getString("title"));
-				bVo.setContent(rs.getString("content"));
-				bVo.setReadcount(rs.getInt("readcount"));
-				bVo.setWritedate(rs.getTimestamp("writedate"));
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
-			DBManager.close(conn, pstmt, rs);
-		}
-		return bVo;
-	}
-	
-	public void deleteBoard(String num) {
+	public int deleteBoard(String num) {
 		String sql = "delete from board where num=?";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
+		int result = 0;
 		
 		try {
 			conn = DBManager.getConnection();
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, num);
-			pstmt.executeUpdate();
+			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
 			DBManager.close(conn, pstmt);
 		}
+		return result;
 	}
 }

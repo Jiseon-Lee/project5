@@ -6,29 +6,33 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>집반찬연구소</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/board.css" rel="stylesheet">
+<script type="text/javascript" src="js/board.js"></script>
 </head>
 <body>
 	<jsp:include page="/header.jsp"/>
 	<div id="wrap">
-		<h1>상품 리스트 - 관리자 페이지</h1>
-		<table>
+		<h1>자유게시판</h1>
+		<table class="list">
 			<tr>
-				<td colspan="4" class="table_top">
-					<a href="Banchan?command=productWriteForm">글 작성</a>
+				<td colspan="5" class="table_top">
+					<a href="Banchan?command=boardWriteForm">글 작성</a>
 				</td>
 			</tr>
 			<tr>
-				<th>번호</th>
-				<th>제목</th>
-				<th>작성자</th>
-				<th>작성일</th>
-				<th>조회</th>
+				<th width="10%">번호</th>
+				<th width="60%">제목</th>
+				<th width="10%">작성자</th>
+				<th width="10%">작성일</th>
+				<th width="10%">조회</th>
 			</tr>
 			<c:forEach var="board" items="${list }">
 				<tr class="record">
 					<td>${board.num }</td>
-					<td><a href="Banchan?command=boardView&num=${board.num }">${board.title }</a></td>
+					<td class="title"><a href="Banchan?command=boardView&num=${board.num }">${board.title }</a></td>
 					<td>${board.username }</td>
 					<td><fmt:formatDate value="${board.writedate }"/></td>
 					<td>${board.readcount }</td>
@@ -36,5 +40,6 @@
 			</c:forEach>
 		</table>
 	</div>
+	<jsp:include page="/footer.jsp"/>
 </body>
 </html>

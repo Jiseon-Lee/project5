@@ -21,7 +21,6 @@ public class ProductListAction implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		MemberVO mVo = (MemberVO) session.getAttribute("loginUser");
-		System.out.println("ProductListAction" +  mVo);
 		
 		if (mVo == null || mVo.getAdmin() == 0) {
 			PrintWriter out = response.getWriter();
@@ -34,7 +33,7 @@ public class ProductListAction implements Action {
 		} else {
 			ProductDAO pDao = ProductDAO.getInstance();
 			List<ProductVO> list = pDao.selectAllProducts();
-			request.setAttribute("productList", list);
+			request.setAttribute("list", list);
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher("product/productList.jsp");
 			dispatcher.forward(request, response);

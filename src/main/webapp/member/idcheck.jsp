@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>집반찬연구소</title>
+<link href="css/reset.css" rel="stylesheet">
 <link href="css/common.css" rel="stylesheet">
 <link href="css/member.css" rel="stylesheet">
 <script type="text/javascript" src="js/member.js"></script>

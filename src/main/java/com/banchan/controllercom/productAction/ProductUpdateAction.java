@@ -19,12 +19,14 @@ public class ProductUpdateAction implements Action {
 		
 		MultipartRequest multi = (MultipartRequest) request.getAttribute("multi");
 		
+		String code = multi.getParameter("code");
 		String productname = multi.getParameter("productName");
 		int price = Integer.parseInt(multi.getParameter("price"));
 		String description = multi.getParameter("description");
 		String issell = multi.getParameter("issell");
 		String pictureUrl = multi.getFilesystemName("pictureUrl");
 		ProductVO pVo = new ProductVO();
+		pVo.setCode(Integer.parseInt(code));
 		pVo.setProductName(productname);
 		pVo.setPrice(price);
 		pVo.setDescription(description);
@@ -32,8 +34,11 @@ public class ProductUpdateAction implements Action {
 		pVo.setPictureUrl(pictureUrl);
 		
 		if (pVo.getPictureUrl() == null) {
-			pVo.setPictureUrl(request.getParameter("nonmakeImg"));
+			System.out.println("picture : " + multi.getParameter("nonmakeImg"));
+			pVo.setPictureUrl(multi.getParameter("nonmakeImg"));
 		}
+		
+		System.out.println("product : " + pVo);
 		
 		ProductDAO pDao = ProductDAO.getInstance();
 		int result = pDao.updateProduct(pVo);

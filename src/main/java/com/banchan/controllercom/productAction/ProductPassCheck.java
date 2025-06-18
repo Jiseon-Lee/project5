@@ -15,7 +15,7 @@ public class ProductPassCheck implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String code = request.getParameter("code");
 		request.setAttribute("code", code);
-		RequestDispatcher dispatcher = request.getRequestDispatcher("product/productPassCheck");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("product/productPassCheck.jsp");
 		dispatcher.forward(request, response);
 	}
 

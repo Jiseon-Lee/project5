@@ -26,7 +26,8 @@
 							<a href="Banchan?command=logout">로그아웃</a>
 						</c:otherwise>
 					</c:choose></li>
-				<li class="nav_menu"><c:choose>
+				<li class="nav_menu">
+					<c:choose>
 						<c:when test="${empty loginUser }">
 							<a href="Banchan?command=joinForm">회원가입</a>
 						</c:when>
@@ -34,14 +35,7 @@
 							<a href="#">주문조회</a>
 						</c:otherwise>
 					</c:choose></li>
-				<li id="tool_tip" class="nav_menu"><a href="#">고객센터</a>
-					<ul>
-						<li>식단 메뉴</li>
-						<li>조리법</li>
-						<li>공지사항</li>
-						<li>자주묻는 질문</li>
-						<li>1:1 문의</li>
-					</ul></li>
+				<li id="tool_tip" class="nav_menu"><a href="Banchan?command=boardList">게시판</a></li>
 			</ul>
 		</div>
 		<div class="header_right_btm">

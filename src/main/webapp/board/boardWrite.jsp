@@ -5,7 +5,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>집반찬연구소</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/board.css" rel="stylesheet">
+<script type="text/javascript" src="js/board.js"></script>
 </head>
 <body>
 	<jsp:include page="/header.jsp"/>
@@ -15,18 +19,18 @@
 			<input type="hidden" name="command" value="boardWrite">
 			<table>
 				<tr>
-					<th>제목</th>
-					<td><input type="text" name="title"> * 필수</td>
+					<th>제목 *</th>
+					<td><input type="text" name="title"></td>
 				</tr>
 				<tr>
 					<th>내용</th>
 					<td><textarea cols="70" rows="15" name="content"></textarea></td>
 				</tr>
 			</table>
-			<br>
-			<br>
-			<input type="submit" value="등록" onclick="return boardCheck()">
-			<input type="button" value="목록" onclick="location.href='Banchan?command=boardList'">
+			<div class="btn_group">
+				<input type="submit" value="등록" onclick="return boardCheck()">
+				<input type="button" value="목록" onclick="location.href='Banchan?command=boardList'">
+			</div>
 		</form>
 	</div>
 	<jsp:include page="/footer.jsp"/>

@@ -71,17 +71,15 @@
 
 #wrap input {
 	height: 33px;
+	width: 100%;
+	font-size: 16px;
+	box-sizing: border-box;
 }
-#wrap input[type="text"], textarea {
+#wrap textarea {
 	width: 100%;
 	font-size: 16px;
 	padding: 10px;
 	box-sizing: border-box;
-}
-
-
-#wrap input.price {
-	width: 200px !important;
 }
 
 #wrap span {
@@ -109,20 +107,6 @@
 	background: #fff;
 	color: #0D5611;
 }
-
-#wrap .delete_form {
-	text-align: center;
-	
-}
-
-#wrap .delete_form p {
-	margin-bottom: 10px;
-}
-
-#wrap .delete_form span {
-	margin: 0;
-}
-
 
 #wrap .btn_group {
 	margin-top: 40px;

@@ -5,9 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>집반찬연구소</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/board.css" rel="stylesheet">
+<script type="text/javascript" src="js/board.js"></script>
 </head>
 <body>
+	<jsp:include page="/header.jsp"/>
 	<div id="wrap">
 		<h1>게시글 상세보기</h1>
 		<table>
@@ -34,10 +39,12 @@
 		</table>
 		<br>
 		<br>
-		<input type="button" value="게시글 삭제" onclick="location.href='Banchan?command=boardIdCheck&do=u&num=${board.num}'">
-		<input type="button" value="게시글 삭제" onclick="location.href='Banchan?command=boardIdCheck&do=d&num=${board.num}'">
-		<input type="button" value="게시글 리스트" onclick="location.href='Banchan?command=boardList'">
-		<input type="button" value="게시글 등록" onclick="location.href='Banchan?command=boardWriteForm'">
+		<div class="btn_group">
+			<input type="button" value="게시글 수정" onclick="location.href='Banchan?command=boardIdCheck&go=u&num=${board.num}'">
+			<input type="button" value="게시글 삭제" onclick="confirm('정말 삭제하시겠습니까?') && (location.href='Banchan?command=boardIdCheck&go=d&num=${board.num}')">
+			<input type="button" value="게시글 리스트" onclick="location.href='Banchan?command=boardList'">
+		</div>
 	</div>
+	<jsp:include page="/footer.jsp"/>
 </body>
 </html>

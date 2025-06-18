@@ -48,7 +48,7 @@ public class Banchan extends HttpServlet {
 
 	        command = multi.getParameter("command");
 	        
-	        request.setAttribute("multi", multi);
+	        request.setAttribute("multi", multi);	// action에서 쓰기 위해 저장
 	    } else {
 	        // 일반 폼 방식
 	        command = request.getParameter("command");

@@ -1,7 +1,6 @@
 package com.banchan.controller.boardAction;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,13 +16,14 @@ public class BoardWriteFormAction implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		if (session.getAttribute("loginUser") == null) {
-			PrintWriter out = response.getWriter();
-			response.setContentType("text/html; charset=UTF-8");
-			out.println("<script>");
-			out.println("alert('로그인을 해주세요.');");
-			out.println("location.href='Banchan?command=loginForm';");
-			out.println("</script>");
-			out.close();
+			String message = "로그인을 해주세요.";
+			String url = "Banchan?command=loginForm";
+			
+			request.setAttribute("message", message);
+			request.setAttribute("url", url);
+			
+			RequestDispatcher dispatcher = request.getRequestDispatcher("alert.jsp");
+			dispatcher.forward(request, response);
 		} else {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("board/boardWrite.jsp");
 			dispatcher.forward(request, response);

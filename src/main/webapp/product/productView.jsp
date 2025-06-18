@@ -1,11 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>집반찬연구소</title>
+<link href="css/reset.css" rel="stylesheet">
 <link href="css/common.css" rel="stylesheet">
 <link href="css/product.css" rel="stylesheet">
 </head>
@@ -14,7 +16,7 @@
 	<div id="wrap">
 		<table>
 			<tr>
-				<td>
+				<td class="pic">
 					<c:choose>
 						<c:when test="${empty product.pictureUrl }">
 							<img src="upload/noimage.gif">
@@ -32,7 +34,7 @@
 						</tr>
 						<tr>
 							<th>가격</th>
-							<td>${product.price }원</td>
+							<td><fmt:formatNumber value="${product.price }" pattern="#,##0원"/></td>
 						</tr>
 						<tr>
 							<th>설명</th>
@@ -46,9 +48,11 @@
 				</td>
 			</tr>
 		</table>
-		<input type="button" value="수정" onclick="location.href='Banchan?command=productUpdate&code=${product.code}'">
-		<input type="button" value="삭제" onclick="location.href='Banchan?command=productPassCheck&code=${product.code}'">
-		<input type="button" value="목록" onclick="location.href='Banchan?command=productList'">
+		<div class="btn_group">
+			<input type="button" value="수정" onclick="location.href='Banchan?command=productUpdateForm&code=${product.code}'">
+			<input type="button" value="삭제" onclick="location.href='Banchan?command=productPassCheck&code=${product.code}'">
+			<input type="button" value="목록" onclick="location.href='Banchan?command=productList'">
+		</div>
 	</div>
 	<jsp:include page="/footer.jsp"/>
 </body>

@@ -5,12 +5,12 @@
 function loginCheck() {
 	if (document.frm.userid.value.length == 0) {
 		alert("아이디를 써주세요.");
-		frm.userid.focus();
+		document.frm.userid.focus();
 		return false;
 	}
 	if (document.frm.pwd.value == "") {
 		alert("비밀번호는 반드시 입력해야 합니다.");
-		frm.pwd.focus();
+		document.frm.pwd.focus();
 		return false;
 	}
 	return true;
@@ -24,7 +24,7 @@ function idCheck() {
 	}
 	if (document.frm.userid.value.length < 4) {
 		alert("아이디는 4글자 이상이어야 합니다.");
-		frm.userid.focus();
+		document.frm.userid.focus();
 		return;
 	}
 	var url = "Banchan?command=checkIdOk&userid=" + document.frm.userid.value;
@@ -40,42 +40,42 @@ function idok(userid) {
 function joinCheck() {
 	if (document.frm.username.value.length == 0) {
 		alert("이름을 써주세요.");
-		frm.username.focus();
+		document.frm.username.focus();
 		return false;
 	}
 	if (document.frm.userid.value.length == 0) {
 		alert("아이디를 써주세요.");
-		frm.userid.focus();
+		document.frm.userid.focus();
 		return false;
 	}
 	if (document.frm.userid.value.length < 4) {
 		alert("아이디는 4글자 이상이어야 합니다.");
-		frm.userid.focus();
+		document.frm.userid.focus();
 		return false;
 	}
 	if (document.frm.userid.value.length > 10) {
 		alert("아이디는 10글자 이하이어야 합니다.");
-		frm.userid.focus();
+		document.frm.userid.focus();
 		return false;
 	}
 	if (document.frm.pwd.value == "") {
 		alert("비밀번호는 반드시 입력해야 합니다.");
-		frm.pwd.focus();
+		document.frm.pwd.focus();
 		return false;
 	}
 	if (document.frm.pwd.value.length > 10) {
 		alert("비밀번호는 10글자 이하이어야 합니다.");
-		frm.pwd.focus();
+		document.frm.pwd.focus();
 		return false;
 	}
 	if (document.frm.pwd.value != document.frm.pwd_check.value) {
 		alert("비밀번호가 일치하지 않습니다.");
-		frm.pwd.focus();
+		document.frm.pwd.focus();
 		return false;
 	}
 	if (document.frm.reid.value.length == 0) {
 		alert("아이디 중복체크를 해주세요.");
-		frm.userid.focus();
+		document.frm.userid.focus();
 		return false;
 	}
 	return true;

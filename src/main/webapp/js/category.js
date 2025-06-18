@@ -8,7 +8,7 @@ $(function(){
             if(data.length>0){
                 for(var i in data.slice(0, 8)){
                     $("#main_nav_1 > ul").append(`
-                        <li><a href="sub.html" target="_self">
+                        <li><a href="sub.jsp" target="_self">
                             <img src="${data[i].img}" alt="${data[i].name}">
                             <span>${data[i].name}</span>
                         </a></li>
@@ -18,7 +18,7 @@ $(function(){
                 var nav_2 = data.slice(8);
                 for(var i in nav_2){
                     $("#main_nav_2 > ul").append(`
-                        <li><a href="sub.html" target="_self">
+                        <li><a href="sub.jsp" target="_self">
                             <img src="${nav_2[i].img}" alt="${nav_2[i].name}">
                             <span>${nav_2[i].name}</span>
                         </a></li>
