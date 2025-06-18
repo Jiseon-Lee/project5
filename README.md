@@ -1,22 +1,19 @@
 # 집반찬 연구소 (JSP/Servlet 프로젝트)
 ## 메인화면
-![메인화면-비로그인](https://github.com/Jiseon-Lee/project5/blob/main/page_img/main1.png)
-![메인화면-로그인](https://github.com/Jiseon-Lee/project5/blob/main/page_img/main2.png)
+![메인화면](https://github.com/Jiseon-Lee/project5/blob/main/page_img/main.png)
 + 로그인 여부에 따라 로그인/회원가입 또는 로그아웃/주문조회로 보임
 
 
 ## 로그인
 ![로그인화면](https://github.com/Jiseon-Lee/project5/blob/main/page_img/login.png)
 + JavaScript로 입력창 입력 여부 체크
-
-![로그인-입력 안했을 경우](https://github.com/Jiseon-Lee/project5/blob/main/page_img/loginCheck.png)
-
-+ 로그인 실패 시 메시지 출력
-![로그인-회원정보 오류](https://github.com/Jiseon-Lee/project5/blob/main/page_img/loginMessage.png)
++ 서버에서 받아온 오류 메시지 표시
 
 
 ## 회원가입
 ![회원가입화면](https://github.com/Jiseon-Lee/project5/blob/main/page_img/join.png)
++ JavaScript로 입력창 입력 여부 체크
++ 아이디 중복 확인을 통해 DB에 PrimaryKey 중복되지 않도록 함
 
 
 ## 마이페이지
