@@ -22,21 +22,29 @@
 
 
 ## 게시판
-![게시판리스트](https://github.com/Jiseon-Lee/project5/blob/main/page_img/boardList.png)
+### 게시판 목록 페이지
+![게시판목록](https://github.com/Jiseon-Lee/project5/blob/main/page_img/boardList.png)
+### 게시글 등록페이지
 ![게시글등록](https://github.com/Jiseon-Lee/project5/blob/main/page_img/boardWrite.png)
+### 게시글 상세페이지
 ![게시글상세](https://github.com/Jiseon-Lee/project5/blob/main/page_img/boardView.png)
+### 게시글 수정페이지
 ![게시글수정](https://github.com/Jiseon-Lee/project5/blob/main/page_img/boardUpdate.png)
+#### 작성자가 아닐 경우 게시물 수정/삭제 불가
 ![게시글수정-다른계정](https://github.com/Jiseon-Lee/project5/blob/main/page_img/boardUpdate2.png)
-+ 작성자가 아닐 경우 게시물 수정/삭제 불가
 
 
 
 ## 상품관리(관리자전용)
 + 관리자 아이디 : admin
 + 관리자 비밀번호 : 1234
+### 상품 목록 페이지
 ![상품리스트](https://github.com/Jiseon-Lee/project5/blob/main/page_img/productList.png)
-+ 일반 유저는 상품 리스트 이동 불가
+#### 일반 유저는 상품 리스트 이동 불가
 ![상품리스트-일반유저](https://github.com/Jiseon-Lee/project5/blob/main/page_img/product1.png)
+### 상품 등록 페이지
 ![상품등록](https://github.com/Jiseon-Lee/project5/blob/main/page_img/productWrite.png)
+### 상품 상세 페이지
 ![상품상세](https://github.com/Jiseon-Lee/project5/blob/main/page_img/productView.png)
+### 상품 수정 페이지
 ![상품수정](https://github.com/Jiseon-Lee/project5/blob/main/page_img/productUpdate.png)
