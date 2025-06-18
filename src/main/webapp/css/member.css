@@ -115,3 +115,13 @@ p.idnotok {
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+.modal {
+	width: 360px;
+	margin: 0 auto;
+}
+
+.modal h2 {
+	margin: 10px 0;
+}

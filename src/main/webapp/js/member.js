@@ -28,7 +28,7 @@ function idCheck() {
 		return;
 	}
 	var url = "Banchan?command=checkIdOk&userid=" + document.frm.userid.value;
-	window.open(url, "_blank_1", "toolbar=no, menubar=no, scrollbars=yes, resizaable=no, width=450, height=400");
+	window.open(url, "_blank_1", "toolbar=no, menubar=no, scrollbars=yes, resizaable=no, width=450, height=450");
 }
 
 function idok(userid) {
@@ -68,7 +68,7 @@ function joinCheck() {
 		document.frm.pwd.focus();
 		return false;
 	}
-	if (document.frm.pwd.value != document.frm.pwd_check.value) {
+	if (document.frm.pwd.value != document.frm.pwd_chk.value) {
 		alert("비밀번호가 일치하지 않습니다.");
 		document.frm.pwd.focus();
 		return false;
