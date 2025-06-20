@@ -63,18 +63,31 @@
 ## 📂 PPT
 <div align="center">
  
-  | ![슬라이드1](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드1.PNG) | ![슬라이드2](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드2.PNG) |
-  | ![슬라이드3](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드3.PNG) | ![슬라이드4](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드4.PNG) |
-  | ![슬라이드5](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드5.PNG) | ![슬라이드6](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드6.PNG) |
-  | ![슬라이드7](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드7.PNG) | ![슬라이드8](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드8.PNG) |
-  | ![슬라이드9](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드9.PNG) | ![슬라이드10](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드10.PNG) |
-  | ![슬라이드11](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드11.PNG) | ![슬라이드12](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드12.PNG) |
-  | ![슬라이드13](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드13.PNG) | ![슬라이드14](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드14.PNG) |
-  | ![슬라이드15](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드15.PNG) | ![슬라이드16](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드16.PNG) |
-  | ![슬라이드17](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드17.PNG) | ![슬라이드18](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드18.PNG) |
-  | ![슬라이드19](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드19.PNG) | ![슬라이드20](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드20.PNG) |
-  | ![슬라이드21](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드21.PNG) | ![슬라이드22](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드22.PNG) |
-  | ![슬라이드23](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드23.PNG) | ![슬라이드24](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드24.PNG) |
-  | ![슬라이드25](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드25.PNG) | ![슬라이드26](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드26.PNG) |
+  ![슬라이드1](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드1.PNG) 
+  ![슬라이드2](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드2.PNG)
+  ![슬라이드3](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드3.PNG)
+  ![슬라이드4](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드4.PNG)
+  ![슬라이드5](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드5.PNG)
+  ![슬라이드6](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드6.PNG)
+  ![슬라이드7](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드7.PNG)
+  ![슬라이드8](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드8.PNG)
+  ![슬라이드9](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드9.PNG)
+  ![슬라이드10](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드10.PNG)
+  ![슬라이드11](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드11.PNG)
+  ![슬라이드12](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드12.PNG)
+  ![슬라이드13](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드13.PNG)
+  ![슬라이드14](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드14.PNG)
+  ![슬라이드15](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드15.PNG)
+  ![슬라이드16](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드16.PNG)
+  ![슬라이드17](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드17.PNG)
+  ![슬라이드18](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드18.PNG)
+  ![슬라이드19](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드19.PNG)
+  ![슬라이드20](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드20.PNG)
+  ![슬라이드21](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드21.PNG)
+  ![슬라이드22](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드22.PNG)
+  ![슬라이드23](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드23.PNG)
+  ![슬라이드24](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드24.PNG)
+  ![슬라이드25](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드25.PNG)
+  ![슬라이드26](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드26.PNG)
 
 </div>
