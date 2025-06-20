@@ -5,15 +5,15 @@
 
 ## 목차
  
-  - [개요](https://github.com/JongHoonKim1004/CampingHaZo#-개요)
+  - [개요](https://github.com/Jiseon-Lee/project5#-개요)
   
-  - [기술 스택](https://github.com/JongHoonKim1004/CampingHaZo#-기술-스택)
+  - [기술 스택](https://github.com/Jiseon-Lee/project5#-기술-스택)
     
-  - [프로젝트 설계](https://github.com/JongHoonKim1004/CampingHaZo#-프로젝트-설계)
+  - [프로젝트 설계](https://github.com/Jiseon-Lee/project5#-프로젝트-설계)
     
-  - [주요기능 실행화면](https://github.com/JongHoonKim1004/CampingHaZo#-주요기능-실행화면)
+  - [주요기능 실행화면](https://github.com/Jiseon-Lee/project5#-주요기능-실행화면)
     
-  - [개선사항](https://github.com/JongHoonKim1004/CampingHaZo#-개선사항)
+  - [개선사항](https://github.com/Jiseon-Lee/project5#-개선사항)
 
 ## 🚩 개요
 - 프로젝트 목표 : JSP/Servlet을 이용하여 웹 페이지 구현 및 DB연결
