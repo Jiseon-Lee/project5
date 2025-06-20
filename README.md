@@ -1,4 +1,4 @@
-![product](https://github.com/user-attachments/assets/60d7fb13-e982-4993-8b8a-be0e916df3d5)![image](https://github.com/user-attachments/assets/1e284ee3-bed9-4582-82a7-c6d72e0f0955)
+![image](https://github.com/user-attachments/assets/1e284ee3-bed9-4582-82a7-c6d72e0f0955)
 
 <h1 align="center">JSP/Servlet 프로젝트 - 집반찬연구소</h1>
 <br/><br/>
