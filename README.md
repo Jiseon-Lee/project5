@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1e284ee3-bed9-4582-82a7-c6d72e0f0955)
+![product](https://github.com/user-attachments/assets/60d7fb13-e982-4993-8b8a-be0e916df3d5)![image](https://github.com/user-attachments/assets/1e284ee3-bed9-4582-82a7-c6d72e0f0955)
 
 <h1 align="center">JSP/Servlet 프로젝트 - 집반찬연구소</h1>
 <br/><br/>
@@ -61,7 +61,8 @@
 - 구매자가 통계를 확인하는 기능 추가
 
 ## 📂 PPT
- <div align="center"> 
+<div align="center">
+ 
   | ![슬라이드1](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드1.PNG) | ![슬라이드2](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드2.PNG) |
   | ![슬라이드3](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드3.PNG) | ![슬라이드4](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드4.PNG) |
   | ![슬라이드5](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드5.PNG) | ![슬라이드6](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드6.PNG) |
@@ -75,4 +76,5 @@
   | ![슬라이드21](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드21.PNG) | ![슬라이드22](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드22.PNG) |
   | ![슬라이드23](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드23.PNG) | ![슬라이드24](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드24.PNG) |
   | ![슬라이드25](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드25.PNG) | ![슬라이드26](https://raw.githubusercontent.com/Jiseon-Lee/project5/main/page_img/슬라이드26.PNG) |
- </div>
+
+</div>
