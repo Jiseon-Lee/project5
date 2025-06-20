@@ -1,4 +1,4 @@
-![슬라이드11](https://github.com/user-attachments/assets/a93fe4d1-95be-4a76-9ef7-32c8d6734a8b)<h1 align="center">JSP/Servlet 프로젝트 - 집반찬연구소</h1>
+<h1 align="center">JSP/Servlet 프로젝트 - 집반찬연구소</h1>
 <br/><br/>
 
 ## 목차
