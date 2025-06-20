@@ -40,8 +40,8 @@
 		<br>
 		<br>
 		<div class="btn_group">
-			<input type="button" value="게시글 수정" onclick="location.href='Banchan?command=boardIdCheck&go=u&num=${board.num}'">
-			<input type="button" value="게시글 삭제" onclick="confirm('정말 삭제하시겠습니까?') && (location.href='Banchan?command=boardIdCheck&go=d&num=${board.num}')">
+			<input type="button" value="게시글 수정" onclick="location.href='Banchan?command=boardUpdateForm&num=${board.num}'">
+			<input type="button" value="게시글 삭제" onclick="confirm('정말 삭제하시겠습니까?') && (location.href='Banchan?command=boardDelete&num=${board.num}')">
 			<input type="button" value="게시글 리스트" onclick="location.href='Banchan?command=boardList'">
 		</div>
 	</div>

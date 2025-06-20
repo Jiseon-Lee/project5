@@ -18,7 +18,8 @@
 
 		<div class="header_right_top">
 			<ul>
-				<li class="nav_menu"><c:choose>
+				<li class="nav_menu">
+					<c:choose>
 						<c:when test="${empty loginUser }">
 							<a href="Banchan?command=loginForm">로그인</a>
 						</c:when>
@@ -34,7 +35,8 @@
 						<c:otherwise>
 							<a href="#">주문조회</a>
 						</c:otherwise>
-					</c:choose></li>
+					</c:choose>
+				</li>
 				<li id="tool_tip" class="nav_menu"><a href="Banchan?command=boardList">게시판</a></li>
 			</ul>
 		</div>

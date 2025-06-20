@@ -1,31 +1,10 @@
 package com.banchan.controller;
 
 import com.banchan.controller.action.Action;
-import com.banchan.controller.memberAction.CheckIdOkAction;
-import com.banchan.controller.memberAction.JoinAction;
-import com.banchan.controller.memberAction.JoinFormAction;
-import com.banchan.controller.memberAction.LoginAction;
-import com.banchan.controller.memberAction.LoginFormAction;
-import com.banchan.controller.memberAction.LogoutAction;
-import com.banchan.controller.memberAction.MemberUpdateAction;
-import com.banchan.controller.memberAction.MypageAction;
-import com.banchan.controllercom.productAction.ProductDeleteAction;
-import com.banchan.controllercom.productAction.ProductListAction;
-import com.banchan.controllercom.productAction.ProductPassCheck;
-import com.banchan.controllercom.productAction.ProductUpdateAction;
-import com.banchan.controllercom.productAction.ProductUpdateFormAction;
-import com.banchan.controllercom.productAction.ProductViewAction;
-import com.banchan.controllercom.productAction.ProductWriteAction;
-import com.banchan.controllercom.productAction.ProductWriteFormAction;
+import com.banchan.controller.memberAction.*;
+import com.banchan.controllercom.productAction.*;
 import com.banchan.controller.action.MainAction;
-import com.banchan.controller.boardAction.BoardDeleteAction;
-import com.banchan.controller.boardAction.BoardIdCheckAction;
-import com.banchan.controller.boardAction.BoardListAction;
-import com.banchan.controller.boardAction.BoardUpdateAction;
-import com.banchan.controller.boardAction.BoardUpdateFormAction;
-import com.banchan.controller.boardAction.BoardViewAction;
-import com.banchan.controller.boardAction.BoardWriteAction;
-import com.banchan.controller.boardAction.BoardWriteFormAction;
+import com.banchan.controller.boardAction.*;
 
 public class ActionFactory {
 	private static ActionFactory instance = new ActionFactory();
@@ -91,7 +70,7 @@ public class ActionFactory {
 					action = new ProductUpdateAction();
 					break;
 				case "productPassCheck":
-					action = new ProductPassCheck();
+					action = new ProductPassCheckAction();
 					break;
 				case "productDelete":
 					action = new ProductDeleteAction();
@@ -114,9 +93,6 @@ public class ActionFactory {
 					break;
 				case "boardUpdate":
 					action = new BoardUpdateAction();
-					break;
-				case "boardIdCheck":
-					action = new BoardIdCheckAction();
 					break;
 				case "boardDelete":
 					action = new BoardDeleteAction();

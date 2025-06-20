@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.banchan.controller.action.Action;
 
-public class ProductPassCheck implements Action {
+public class ProductPassCheckAction implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

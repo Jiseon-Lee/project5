@@ -14,7 +14,7 @@
 <body>
 	<jsp:include page="/header.jsp"/>
 	<div id="wrap">
-		<h1>상품 등록 - 관리자 페이지</h1>
+		<h1>상품 수정 - 관리자 페이지</h1>
 		<form enctype="multipart/form-data" name="frm" action="Banchan" method="post">
 			<input type="hidden" name="command" value="productUpdate">
 			<input type="hidden" name="code" value="${product.code }">
@@ -24,7 +24,7 @@
 					<td>
 						<c:choose>
 							<c:when test="${empty product.pictureUrl }">
-								<img src="upload/noimage.gif">
+								<img src="upload/noimage.png">
 							</c:when>
 							<c:otherwise>
 								<img src="upload/${product.pictureUrl }">

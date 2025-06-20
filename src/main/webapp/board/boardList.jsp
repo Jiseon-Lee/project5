@@ -32,7 +32,9 @@
 			<c:forEach var="board" items="${list }">
 				<tr class="record">
 					<td>${board.num }</td>
-					<td class="title"><a href="Banchan?command=boardView&num=${board.num }">${board.title }</a></td>
+					<td class="title">
+						<a href="Banchan?command=boardView&num=${board.num }">${board.title }</a>
+					</td>
 					<td>${board.username }</td>
 					<td><fmt:formatDate value="${board.writedate }"/></td>
 					<td>${board.readcount }</td>

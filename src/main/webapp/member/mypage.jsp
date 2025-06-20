@@ -17,9 +17,9 @@
     	<h1>마이페이지</h1>
     	<form method="post" name="frm" action="Banchan">
     		<input type="hidden" name="command" value="memberUpdate">
-			<p>이름 *</p>
+			<p>이름</p>
 			<input type="text" name="username" value="${loginUser.username}" readonly>
-			<p>아이디 *</p>
+			<p>아이디</p>
 			<input type="text" name="userid" value="${loginUser.userid}" readonly>
 			<p>비밀번호 *</p>
 			<input type="password" name="pwd">

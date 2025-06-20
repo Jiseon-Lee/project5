@@ -14,12 +14,13 @@
 <body>
 	<jsp:include page="/header.jsp"/>
 	<div id="wrap">
+		<h1>상품 상세 - 관리자 페이지</h1>
 		<table>
 			<tr>
 				<td class="pic">
 					<c:choose>
 						<c:when test="${empty product.pictureUrl }">
-							<img src="upload/noimage.gif">
+							<img src="upload/noimage.png">
 						</c:when>
 						<c:otherwise>
 							<img src="upload/${product.pictureUrl }">

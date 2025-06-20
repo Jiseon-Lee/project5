@@ -18,7 +18,8 @@ import com.banchan.dto.ProductVO;
 public class ProductListAction implements Action {
 
 	@Override
-	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void execute(HttpServletRequest request, HttpServletResponse response) 
+			throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		MemberVO mVo = (MemberVO) session.getAttribute("loginUser");
 		

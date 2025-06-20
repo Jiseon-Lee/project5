@@ -129,7 +129,8 @@ public class MemberDAO {
 	// 회원정보 수정
 	public int updateMember(MemberVO mVo) {
 		int result = -1;
-		String sql = "update member set pwd=?, email=?, phone=? where userid=?";
+		String sql = "update member set pwd=?, email=?, phone=? "
+				+ "where userid=?";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		

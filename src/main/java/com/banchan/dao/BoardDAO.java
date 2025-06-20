@@ -21,7 +21,8 @@ public class BoardDAO {
 	
 	// 모든 글 목록을 최신순으로 불러옴
 	public List<BoardVO> selectAllBoard() {
-		String sql = "select * from board join member on board.userid = member.userid order by num desc";
+		String sql = "select * from board join member "
+				+ "on board.userid = member.userid order by num desc";
 		List<BoardVO> list = new ArrayList<BoardVO>();
 		Connection conn = null;
 		Statement stmt = null;
@@ -78,26 +79,29 @@ public class BoardDAO {
 	}
 	
 	// 글 열람 수 증가
-	public void updateReadCount(String num) {
+	public int updateReadCount(String num) {
 		String sql = "update board set readcount = readcount + 1 where num=?";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
+		int result = 0;
 		
 		try {
 			conn = DBManager.getConnection();
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, num);
-			pstmt.executeUpdate();
+			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
 			DBManager.close(conn, pstmt);
 		}
+		return result;
 	}
 	
 	// 글 상세 내용 불러오기
 	public BoardVO selectOneBoardByNum(String num) {
-		String sql = "select * from board join member on board.userid = member.userid where num = ?";
+		String sql = "select * from board join member "
+				+ "on board.userid = member.userid where num = ?";
 		BoardVO bVo = null;
 		Connection conn = null;
 		PreparedStatement pstmt = null;
