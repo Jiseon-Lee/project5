@@ -56,7 +56,7 @@
 
 ## 📂 PPT
  <div align="center"> 
-  | ![슬라이드1](https://github.com/user-attachments/assets/36e4d73d-6eee-457c-9b5b-8ca60957a984) | ![슬라이드2](https://github.com/user-attachments/assets/d4d7fa4c-f696-48e3-b70b-f59acc3c5a3a) |
+  | ![슬라이드1](https://github.com/user-attachments/assets/1ebb4203-23f1-4e03-a525-918843e67a35) | ![슬라이드2](https://github.com/user-attachments/assets/d4d7fa4c-f696-48e3-b70b-f59acc3c5a3a) |
   | ![슬라이드3](https://github.com/user-attachments/assets/c6acd82a-19fc-4b68-8914-9004a52f05e1) | ![슬라이드4](https://github.com/user-attachments/assets/0b3e9206-e404-41c2-96ff-79a9ed8de7ee) |
   | ![슬라이드5](https://github.com/user-attachments/assets/7906b1a4-1c0b-41a4-9cb3-cd642e883751) | ![슬라이드6](https://github.com/user-attachments/assets/27dc42d3-f38a-4b1f-9842-22aa43eefad3) |
   | ![슬라이드7](https://github.com/user-attachments/assets/14497668-0d5d-43eb-aaca-90ccad4481c9) | ![슬라이드8](https://github.com/user-attachments/assets/65f0f3ad-a3a9-4ff9-bc82-3785464c49f7) |
